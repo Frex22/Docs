@@ -1911,6 +1911,93 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#problem-out-of-memory-oom-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem Out-of-Memory (OOM) Errors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-understanding-the-oom-killer" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Understanding the OOM Killer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-step-1-confirming-an-oom-kill" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Step 1: Confirming an OOM Kill
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-common-oom-scenarios-and-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Common OOM Scenarios and Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Common OOM Scenarios and Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scenario-a-simple-memory-under-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario A: Simple Memory Under-Allocation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-b-pythonpandas-data-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario B: Python/Pandas Data Loading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-c-multi-processing-memory-multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario C: Multi-Processing Memory Multiplication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-d-memory-leaks-in-long-running-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario D: Memory Leaks in Long-Running Jobs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-quick-troubleshooting-reference-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Quick Troubleshooting Reference Table
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -4014,6 +4101,93 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#problem-out-of-memory-oom-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem Out-of-Memory (OOM) Errors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-understanding-the-oom-killer" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Understanding the OOM Killer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-step-1-confirming-an-oom-kill" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Step 1: Confirming an OOM Kill
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-common-oom-scenarios-and-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Common OOM Scenarios and Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Common OOM Scenarios and Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scenario-a-simple-memory-under-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario A: Simple Memory Under-Allocation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-b-pythonpandas-data-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario B: Python/Pandas Data Loading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-c-multi-processing-memory-multiplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario C: Multi-Processing Memory Multiplication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-d-memory-leaks-in-long-running-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario D: Memory Leaks in Long-Running Jobs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-quick-troubleshooting-reference-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Quick Troubleshooting Reference Table
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -4102,7 +4276,7 @@ srun<span class="w"> </span>gmx_mpi<span class="w"> </span>mdrun<span class="w">
 <li>Align --ntasks, --cpus-per-task, and application threading flags (-ntomp, OMP_NUM_THREADS, etc.) with actual node architecture.</li>
 </ul>
 </div>
-<h1 id="problem-out-of-memory-oom-errors">Problem Out-of-Memory (OOM) Errors<a class="headerlink" href="#problem-out-of-memory-oom-errors" title="Permanent link">&para;</a></h1>
+<h3 id="problem-out-of-memory-oom-errors"><strong>Problem Out-of-Memory (OOM) Errors</strong><a class="headerlink" href="#problem-out-of-memory-oom-errors" title="Permanent link">&para;</a></h3>
 <h3 id="1-understanding-the-oom-killer">1. Understanding the OOM Killer<a class="headerlink" href="#1-understanding-the-oom-killer" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>What it is:</strong> The Out-of-Memory (OOM) Killer is a Linux kernel process that activates when a compute node is critically low on physical memory.</li>
