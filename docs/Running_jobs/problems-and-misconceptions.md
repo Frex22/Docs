@@ -85,7 +85,7 @@ srun gmx_mpi mdrun -deffnm run -cpi run.cpt -v -ntomp 2 -pin on -tunepme -dlb ye
     - Cancel jobs that overload nodes and adjust scripts accordingly.
     - Align --ntasks, --cpus-per-task, and application threading flags (-ntomp, OMP_NUM_THREADS, etc.) with actual node architecture.
 
-* **Problem Out-of-Memory (OOM) Errors**
+### **Problem Out-of-Memory (OOM) Errors**
 
 ### 1. Understanding the OOM Killer
 
